@@ -5,7 +5,7 @@
  *
  * Description: printinfg with printf.
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
