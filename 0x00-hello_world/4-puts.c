@@ -3,9 +3,9 @@
 /**
  * main - using put
  *
- * description - A code that print with put function
+ * description: A code that print with put function
  *
- * return - Always 0 (Succss)
+ * Return: Always 0 (Succss)
 */
 
 int main(void)
