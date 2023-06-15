@@ -5,7 +5,7 @@
  *
  * description: printing a quote
  *
- * Return: Always 0 (success)
+ * Return: 1
 */
 
 int main(void)
