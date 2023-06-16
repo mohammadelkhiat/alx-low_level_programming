@@ -37,7 +37,7 @@ int main(void)
 			}
 			digit2++;
 		}
-		diggit1++;
+		digit1++;
 	}
 	putchar('\n');
 return (0);
