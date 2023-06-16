@@ -5,12 +5,12 @@
  *
  * description: Printing alphapet with putchar
  *
- * Return: Always 1 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	char ch = 'a'
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
