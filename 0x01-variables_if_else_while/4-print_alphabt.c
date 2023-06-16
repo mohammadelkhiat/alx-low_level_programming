@@ -3,7 +3,7 @@
 /**
  * main - print !e,q
  *
- * description: printing alphapet without 'e' or 'q'
+ * description: printing alphapet without e or q
  *
  * Return: always 0
 */
