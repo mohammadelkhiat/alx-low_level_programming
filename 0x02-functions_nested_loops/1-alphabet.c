@@ -4,7 +4,7 @@
  * print_alphapet - printing lowwercase with _putchar
 */
 
-void print_alphapet(void)
+void print_alphabet(void)
 {
 	int ch;
 
