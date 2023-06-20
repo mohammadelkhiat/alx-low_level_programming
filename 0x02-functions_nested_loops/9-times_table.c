@@ -23,12 +23,12 @@ void times_table(void)
 			P = N * M;
 
 			if (P <= 9)
-				_putchar(' ')
+				_putchar(' ');
 			else
 				_putchar((P / 10) + 48);
 
 			_putchar((P % 10) + 48);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
