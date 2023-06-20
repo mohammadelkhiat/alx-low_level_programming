@@ -10,10 +10,8 @@
  * Return: Always 0
 */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n, x;
-
-	x = abs(n);
+	int x = abs(n);
 	return (x);
 }
