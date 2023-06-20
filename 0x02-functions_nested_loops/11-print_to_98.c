@@ -18,7 +18,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (count = 0; count < 98; count++)
+		for (count = n; count < 98; count++)
 			_putchar(count + 48);
 			_putchar(',');
 			_putchar(' ');
