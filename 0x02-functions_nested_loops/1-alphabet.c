@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * main - printing lowwercase with _putchar
+ * print_alphabet - printing lowwercase with _putchar
  *
  * Description: no using of stdio.h
 */
 
-void main(void)
+void print_alphabet(void);
 {
 	int ch;
 
