@@ -17,7 +17,7 @@ int main(void)
 	{
 		Vs = V1 + V2;
 		printf("%lu", Vs);
- 
+
 		V1 = V2;
 		V2 = Vs;
 
