@@ -10,7 +10,7 @@
  * Return: Always 0
 */
 
-int _abs()
+int _abs(int)
 {
 	int n, x;
 
