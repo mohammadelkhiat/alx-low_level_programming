@@ -18,6 +18,6 @@ int print_last_digit(int n)
 	else
 		LD = -1 * (n % 10);
 	
-	_putchart(48 + LD);
+	_putchar(48 + LD);
 	return (LD);
 }
