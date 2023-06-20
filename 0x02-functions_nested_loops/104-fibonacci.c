@@ -44,7 +44,7 @@ int main(void)
 
 		while (f1o > 0 && init > 0)
 		{
-			printf("%d", 0)
+			printf("%d", 0);
 			init--;
 		}
 
