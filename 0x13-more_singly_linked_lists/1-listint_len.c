@@ -1,4 +1,4 @@
-#include "ists.h"
+#include "lists.h"
 
 /**
  * listint_len - give the number of elemnts in a linked list
