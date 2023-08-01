@@ -63,4 +63,11 @@ where index is the index of the node, starting at 0
 if the node does not exist, return NULL
 __The file to create__ - 7-get_nodeint,c
 
-### 
+### 8. Sum list
+Write a function that returns the sum of all the data (n) of a listint_t linked list.
+
+Prototype: int sum_listint(listint_t *head);
+if the list is empty, return 0
+__The file to create__ - 8-sum_listint.c
+
+###
