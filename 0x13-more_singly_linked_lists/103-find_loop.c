@@ -1,10 +1,11 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - frees a linked list
- * @h: pointer to the first node in the linked list
+ * find_listint_loop - finds address of starting node in looped linked list
+ * @head: pointer to the head in linked list to test
  *
- * Return: number of elements in the freed list
+ * Return: The address of the node where the loop starts,
+ * or NULL if there is no loop
 */
 
 listint_t *find_listint_loop(listint_t *head)
