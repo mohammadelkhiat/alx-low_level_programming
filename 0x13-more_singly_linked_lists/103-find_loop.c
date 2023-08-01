@@ -7,35 +7,34 @@
  * Return: number of elements in the freed list
 */
 
-size_t free_listint_safe(listint_t **h)
+listint_t *find_listint_loop(listint_t *head)
 {
-	size_t len = 0;
-	int diff;
-	listint_t *temp;
+	listint_t *hare, *tortoise;
 
-	if (!h || !*h)
-		return (0);
+	if (!head)
+		return (NULL);
 
-	while (*h)
+	hare = tortoise = head;
+
+	while (tortoise && hare && hare->next)
 	{
-		diff = *h - (*h)->next;
-		if (diff > 0)
+		tortoise = tortoise->next;
+		hare = (hare->next)->next;
+
+		if (hare == tortoise)
 		{
-			temp = (*h)->next;
-			free(*h);
-			*h = temp;
-			len++;
-		}
-		else
-		{
-			free(*h);
-			*h = NULL;
-			len++;
-			break;
+			tortoise = head;
+
+			while (tortoise && hare)
+			{
+				if (tortoise == hare)
+					return (tortoise);
+
+				tortoise = tortoise->next;
+				hare = hare->next;
+			}
 		}
 	}
 
-	*h = NULL;
-
-	return (len);
+	return (NULL);
 }
