@@ -33,24 +33,34 @@ Write a function that adds a new node at the end of a listint_t list.
 
 Prototype: listint_t *add_nodeint_end(listint_t **head, const int n);
 Return: the address of the new element, or NULL if it failed
-__The file to creat__ - 3-add_nodeint_end.c
+__The file to create__ - 3-add_nodeint_end.c
 
 ### 4. Free list
 Write a function that frees a listint_t list.
 
 Prototype: void free_listint(listint_t *head);
-__The file to creat__ - 4-free_listint.c
+__The file to create__ - 4-free_listint.c
 
 ### 5. Free
 Write a function that frees a listint_t list.
 
 Prototype: void free_listint2(listint_t **head);
 The function sets the head to NULL
-__The file to creat__ - 5-free_listint2.c
+__The file to create__ - 5-free_listint2.c
 
 ### 6.Pop
 Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
 Prototype: int pop_listint(listint_t **head);
 if the linked list is empty return 0
-__The file to creat__ - 6-pop_listint.c
+__The file to create__ - 6-pop_listint.c
+
+### 7. Get node at index
+Write a function that returns the nth node of a listint_t linked list.
+
+Prototype: listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+where index is the index of the node, starting at 0
+if the node does not exist, return NULL
+__The file to create__ - 7-get_nodeint,c
+
+### 
