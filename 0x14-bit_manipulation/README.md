@@ -1,9 +1,9 @@
 # 0x14. C - Bit manipulation
-### Hello There,Mohammad Elkhiat
-In this project we will work on bitwise operation (manipulation).
----
-#### AS usual we will create the README.md -this file- and the header file (main.h) first then see what are the tasks. ####
----
+### In this project we will work on bitwise operation (manipulation).
+#### By Mohammad Elkhiat ####
+
+AS usual we will create the README.md -this file- and the header file (main.h) first then see what are the tasks.
+----
 The tasks are
 
 ### 0. 0
@@ -28,4 +28,11 @@ Its file - 0-binary_to_uint.
 - You are not allowed to use the % or / operatorsc
 Its file - 1-print_binary.c
 
-###
+### 2. 10
+- mandatory
+- Write a function that returns the value of a bit at a given index.
+
+- Prototype: int get_bit(unsigned long int n, unsigned int index);
+- where index is the index, starting from 0 of the bit you want to get
+- Returns: the value of the bit at index index or -1 if an error occured
+Its file - 2-get_bit.c
