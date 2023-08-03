@@ -66,3 +66,10 @@ Its file - 4-clear_bit.c
 - You are not allowed to use the % or / operators
 Its file - 5-flip_bits.c
 
+### 6. Endianness
+- [#advanced]
+- Write a function that checks the endianness.
+
+- Prototype: int get_endianness(void);
+- Returns: 0 if big endian, 1 if little endian
+Its file - 100-get_endianness.c
