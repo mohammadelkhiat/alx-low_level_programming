@@ -57,3 +57,12 @@ Its file - 3-set_bit.c
 - where index is the index, starting from 0 of the bit you want to set
 - Returns: 1 if it worked, or -1 if an error occurred
 Its file - 4-clear_bit.c
+
+### 5. 101
+- [mandatory]
+- Write a function that returns the number of bits you would need to flip to get from one number to another.
+
+- Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
+- You are not allowed to use the % or / operators
+Its file - 5-flip_bits.c
+
