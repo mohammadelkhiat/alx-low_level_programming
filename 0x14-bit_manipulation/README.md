@@ -73,3 +73,11 @@ Its file - 5-flip_bits.c
 - Prototype: int get_endianness(void);
 - Returns: 0 if big endian, 1 if little endian
 Its file - 100-get_endianness.c
+
+### 7. Crackme3
+- [#advanced]
+- Find the password for this program.
+
+- Save the password in the file 101-password
+- Your file should contain the exact password, no new line, no extra space
+Its file - 101-password
