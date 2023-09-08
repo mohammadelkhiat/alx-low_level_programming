@@ -2,10 +2,8 @@
 
 /**
  * main - Printf
- *
- * Description: printinfg with printf.
- *
- * Return: Always 0 (Success)
+ * Description: doing some nosence stuff
+ * Return: 0
 */
 
 int main(void)
