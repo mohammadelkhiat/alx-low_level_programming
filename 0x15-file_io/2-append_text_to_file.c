@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * append_text_to_file - reads a text
  * @filename: file name
