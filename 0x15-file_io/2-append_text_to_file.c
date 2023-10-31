@@ -11,7 +11,7 @@ int create_file(const char *filename, char *text_content)
 	int FOpen;
 	ssize_t byteSize;
 
-	FOpen = open(filename, O_WRONLY | O_APPEND );
+	FOpen = open(filename, O_WRONLY | O_APPEND);
 
 	if (FOpen == -1)
 		return (-1);
