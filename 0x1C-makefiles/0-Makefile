@@ -1,4 +1,6 @@
-# Task 0 combiling 2 files to print the logo
-
-all:
-	gcc main.c holberton.c -o holberton
+.PHONY: all school main
+all: school main
+school: school.c
+main: main.c
+	@echo "Check.."
+	gcc main.c school.c -o school
