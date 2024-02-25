@@ -1,5 +1,5 @@
-.PHONY: all
 CC := gcc
 SRC := school.c main.c
-all: SRC
+
+all:
 	@echo ${CC} ${SRC} -o school
