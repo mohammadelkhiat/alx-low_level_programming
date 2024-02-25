@@ -1,8 +1,8 @@
 .PHONY: all
-
 CC := gcc
-SRC := ( *.c)
-
-all: ${SRC}
+CC := ${CC}
+SRC := $(*.c)
+BIN := $(SRC:%.c=%)
+all: ${BIN}
 	@echo "Check.."
 	${CC} ${SRC} -o school
