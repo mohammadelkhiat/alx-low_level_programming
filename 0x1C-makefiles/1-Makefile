@@ -1,0 +1,6 @@
+.PHONY: all school main
+CC := gcc
+SRC := school main
+all: SRC
+	@echo "Check.."
+	${CC} main.c school.c -o school
