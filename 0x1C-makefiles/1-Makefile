@@ -1,7 +1,16 @@
-.PHONY: all
 CC = gcc
 SRC = main.c school.c
+EXEC = school
 
-all:
-    @echo "7spy Allah"
-	${CC} ${SRC} -o school
+all: $(EXEC)
+
+$(EXEC): $(SRC)
+    $(CC) $(SRC) -o $(EXEC)
+
+check: $(EXEC)
+    ./$(EXEC) argument1 argument2
+
+.PHONY: clean
+
+clean:
+    rm -f $(EXEC)
