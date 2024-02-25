@@ -1,5 +1,8 @@
-CC := gcc
-SRC := school.c main.c
+.PHONY: all
 
-all:
+CC := gcc
+SRC := ( *.c)
+
+all: ${SRC}
+	@echo "Check.."
 	${CC} ${SRC} -o school
