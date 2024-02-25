@@ -1,0 +1,4 @@
+# Task 0 combiling 2 files to print the logo
+
+all:
+	gcc main.c holberton.c -o holberton
